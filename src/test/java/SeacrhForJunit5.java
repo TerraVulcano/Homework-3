@@ -16,9 +16,6 @@ public class SeacrhForJunit5 {
         Selenide.$("[data-content=Wiki]").click();
         Selenide.$("#wiki-body").shouldHave(text("Soft assertions")).click();
         Selenide.$("#wiki-body").shouldHave(text("Using JUnit5 extend test class:"));
-
-
-        Selenide.sleep(5000);
     }
 
 }
